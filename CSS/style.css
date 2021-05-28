@@ -1,0 +1,206 @@
+/* remove after design */
+*{
+    color: #fff;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+}
+body {
+    background: linear-gradient(180deg, #BDD0FF 0%, #E5E5E5 100%);
+} 
+
+#margin {
+    margin: 25px 90px 20px 75px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #005EB8;
+
+}
+
+#logo-design {
+    display: flex;
+    border: none;
+    justify-content: center;
+}
+
+.logo-image {
+    width: 57px;
+    Height: 57.35px;
+    order: 2;
+    align-self: center;
+    border: none;
+}
+
+#logo-name {
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    order: 1;
+    border: solid;
+    align-self:center;
+    margin: 0;
+    border: none;
+    color: #fff;
+}
+
+#logo-slogan {
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    border: none;
+    color: #fff;
+}
+
+#nav-items {
+    display: flex;
+    margin-right: 5rem;
+    align-items: center;
+    padding: 0px 10px;
+    justify-content: space-around;
+    border: none;
+}
+
+#contact-item {
+    width: 175px;
+    height: 52px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #00529E;
+    margin-right: 10px;
+    box-shadow: 1px 5px 5px #02498B;
+    border: none;
+}
+
+#search-item{
+   width: 119px;
+    height: 52px; 
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    background: #fff;
+    margin-left: 10px;
+    box-shadow: 1px 5px 5px #02498B;
+    border: none;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0086BF;
+    border: none;
+}
+
+#get-involved {
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 500px;
+    border: none;
+}
+
+#menu-separator {
+    margin-left: 10px;
+    height: 30px;
+    width: 0;
+    transform: rotate(-6deg);
+    color: #00529E;
+    border: 2px solid #00529E;
+}
+
+#about {
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 10px;
+    border: none;
+}
+
+#help {
+    width: 243px;
+    height: 58px;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFB639;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+}
+
+#display {
+    background-image: url("/images/Home-page.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#display-section {
+    width: 50%;
+    text-align: center;
+    border: none;
+}
+
+#display-header {
+    font-size: 66.738px;
+    line-height: 78px;
+    margin-bottom:0;
+    margin-top: 0;
+    color: orange;
+    border: none;
+}
+
+#display-par {
+    font-size: 24.4706px;
+    line-height: 29px;
+    margin-top: 0;
+    border: none;
+}
+
+#services {
+    display: flex;
+    justify-content: space-around;
+}
+
+#services-head {
+    font-size: 28.1891px;
+    line-height: 33px;
+    color: #000;
+}
+
+.services-box {
+    width: 349px;
+    height: 326px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-img1 {
+    width: 56%;
+    align-self: center;
+    margin-top: auto;
+}
+
+.services-img2 {
+    height: 56%;
+    align-self: center;
+}
+
+.services-tag {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 0;
+    align-self:center;
+    text-align:center;
+    color: #000;
+}
