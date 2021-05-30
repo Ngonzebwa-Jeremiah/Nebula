@@ -291,10 +291,29 @@ input, textarea {
     color: rgba(255, 255, 255, 0.8);
 }
 
+#text {
+    display: flex;
+    flex-direction: column;
+}
+
 #text-area {
     width: 490px;
     height: 453px;
     left: 859px;
     top: 428px;
     background: #55B5F4;
+}
+
+#submit {
+    font-size: 38.0455px;
+    color: #fff;
+    width: 273px;
+    height: 75px;
+    border: 3px solid #fff;
+    /* box-sizing: border-box; */
+    border-radius: 50px;
+    background: none;
+    display: flex;
+    align-self:flex-end;
+    justify-content: center;
 }
