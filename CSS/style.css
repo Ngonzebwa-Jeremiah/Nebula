@@ -1,19 +1,26 @@
 /* remove after design */
 *{
     color: #fff;
-    font-family: Work Sans;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
 }
-body {
+#page1 {
     background: linear-gradient(180deg, #BDD0FF 0%, #E5E5E5 100%);
 } 
 
-#margin {
-    margin: 25px 90px 20px 75px;
+a {
+    text-decoration: none;
 }
 
+/* #margin {
+    margin: 25px 90px 20px 75px;
+} */
+
+/* Top Most Navigation */
+
 nav {
+    /* position: relative; */
     display: flex;
     justify-content: space-between;
     background: #005EB8;
@@ -78,6 +85,19 @@ nav {
     border: none;
 }
 
+#nav-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 613px;
+    background-color: #000;
+    /* border: solid yellow; */
+    z-index: -1;
+}
+
+/* Second Navigation */
+
 #search-item{
    width: 119px;
     height: 52px; 
@@ -137,8 +157,10 @@ nav {
     border: none;
 }
 
+/* Display Section */
+
 #display {
-    background-image: url("/images/Home-page.jpeg");
+    background-image: url("../images/Home-page.jpeg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -164,6 +186,8 @@ nav {
     margin-top: 0;
     border: none;
 }
+
+/* Services Section */
 
 #services {
     display: flex;
@@ -203,4 +227,61 @@ nav {
     align-self:center;
     text-align:center;
     color: #000;
+}
+
+/* Help Page */
+
+#page3 {
+    background: #5BBDF9;
+}
+
+/* Forms */
+
+#help-heading {
+    font-weight: 500;
+    font-size: 83.4608px;
+    line-height: 98px;
+}
+
+#forms {
+    display: flex;
+    justify-content: space-around;
+}
+
+legend {
+    font-size: 25px;
+    line-height: 29px;
+}
+
+input, textarea {
+    color: black;
+    border: none;
+}
+
+#form1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#telephone, #residence {
+    width: 469px;
+    height: 84px;
+    background: #53B4F3;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+::placeholder {
+    font-size: 25px;
+    line-height: 29px;
+    padding-left: 27px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#text-area {
+    width: 490px;
+    height: 453px;
+    left: 859px;
+    top: 428px;
+    background: #55B5F4;
 }
