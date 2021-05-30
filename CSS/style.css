@@ -235,6 +235,19 @@ nav {
     background: #5BBDF9;
 }
 
+#hidden {
+    width: 243px;
+    height: 58px;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+}
+
 /* Forms */
 
 #help-heading {
