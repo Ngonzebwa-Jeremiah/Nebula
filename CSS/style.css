@@ -122,39 +122,53 @@ nav {
 }
 
 #get-involved {
-    font-size: 24px;
+    font-size: 1.7vw;
     line-height: 28px;
     margin-left: 500px;
     border: none;
 }
 
 #menu-separator {
-    margin-left: 10px;
-    height: 30px;
-    width: 0;
+    margin: 10px;
+    height: 30%;
+    width: 0em;
+    font-size: 2vw;
     transform: rotate(-6deg);
     color: #00529E;
-    border: 2px solid #00529E;
 }
 
 #about {
-    font-size: 24px;
+    font-size: 1.7vw;
     line-height: 28px;
     margin-left: 10px;
     border: none;
 }
 
 #help {
-    width: 243px;
-    height: 58px;
-    font-size: 24px;
-    line-height: 28px;
+    width: 10em;
+    height: 2.5em;
+    font-size: 1.7vw;
+    line-height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #FFB639;
-    margin-right: auto;
+    margin-right: 10px;
     margin-left: auto;
+    border: none
+}
+
+#help1 {
+    width: 24em;
+    height: 2.5em;
+    font-size: 1.7vw;
+    line-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFB639;
+    /* margin-right: auto;
+    margin-left: auto; */
     border: none;
 }
 
@@ -204,8 +218,16 @@ nav {
 }
 
 .services-box {
-    width: 349px;
-    height: 326px;
+    width: 26%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-box1 {
+    width: 26%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -224,8 +246,8 @@ nav {
 
 .services-tag {
     font-weight: 500;
-    font-size: 40px;
-    line-height: 47px;
+    font-size: 3vw;
+    line-height: auto;
     margin-bottom: 0;
     align-self:center;
     text-align:center;
