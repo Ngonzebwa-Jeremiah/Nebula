@@ -1,0 +1,91 @@
+body {
+    background: linear-gradient(180deg, #BDD0FF 0%, #E5E5E5 100%);
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;;
+}
+
+a {
+    text-decoration: none;
+}
+
+#contactContainer {
+    margin: 10% 25%;
+    background:chartreuse;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1rem;
+    margin-left: 2rem;
+}
+
+#logo-design {
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-self: unset;
+}
+
+.logo-image {
+    width: 5%;
+    height: auto;
+    order: 2;
+    align-self: center;
+    border: none;
+    position: relative;
+}
+
+#logo-name {
+    font-weight: bold;
+    font-size: 1vw;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    order: 1;
+    border: solid;
+    align-self:center;
+    margin: 0;
+    border: none;
+    color: #000;
+}
+
+#logo-slogan {
+    font-weight: bold;
+    font-size: 0.6vw;
+    letter-spacing: -0.02em;
+    margin: 0;
+    border: none;
+    color: #000;
+    position:relative;
+    align-self: center;
+}
+
+#git {
+    font-weight: 200;
+    text-align: center;
+}
+
+div > div {
+    display: flex;
+}
+
+#social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#social.div {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#icon {
+    width: 10%;
+}

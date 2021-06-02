@@ -1,10 +1,14 @@
-/* remove after design */
 *{
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
 }
+
+body {
+    margin:0%;
+}
+
 #page1 {
     background: linear-gradient(180deg, #BDD0FF 0%, #E5E5E5 100%);
 } 
@@ -13,33 +17,36 @@ a {
     text-decoration: none;
 }
 
-/* #margin {
-    margin: 25px 90px 20px 75px;
-} */
 
 /* Top Most Navigation */
 
 nav {
-    /* position: relative; */
     display: flex;
     justify-content: space-between;
     background: #005EB8;
-    /* width: 1rem;
-    height: 6rem; */
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
 }
 
 #logo-design {
     display: flex;
     border: none;
-    justify-content: center;
+    justify-content: flex-start;
+    align-self: unset;
 }
 
 .logo-image {
-    max-width: 18%;
+    width: 18%;
     height: auto;
     order: 2;
     align-self: center;
     border: none;
+    position: relative;
 }
 
 #logo-name {
@@ -57,11 +64,12 @@ nav {
 
 #logo-slogan {
     font-weight: bold;
-    font-size: 1.46vw;
+    font-size: 1.2vw;
     letter-spacing: -0.02em;
     margin: 0;
     border: none;
     color: #fff;
+    position:relative;
 }
 
 #nav-items {
@@ -86,7 +94,7 @@ nav {
     border: none;
 }
 
-#search-item{
+#searchItem{
     width: 4.5em;
     height: 2.2em;
     font-size: 1.8vw;
@@ -99,17 +107,6 @@ nav {
     box-shadow: 1px 5px 5px #02498B;
     border: none;
  }
-
-#nav-background {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    height: 613px;
-    background-color: #000;
-    /* border: solid yellow; */
-    z-index: -1;
-}
 
 /* Second Navigation */
 
@@ -153,23 +150,8 @@ nav {
     justify-content: center;
     align-items: center;
     background: #FFB639;
-    margin-right: 10px;
-    margin-left: auto;
+    margin: 0 10px 0 auto;
     border: none
-}
-
-#help1 {
-    width: 24em;
-    height: 2.5em;
-    font-size: 1.7vw;
-    line-height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #FFB639;
-    /* margin-right: auto;
-    margin-left: auto; */
-    border: none;
 }
 
 /* Display Section */
@@ -180,6 +162,7 @@ nav {
     background-position: center;
     max-width: 100%;
     height: auto;
+    display: inline-block;
 }
 
 #display-section {
@@ -202,6 +185,17 @@ nav {
     line-height: 29px;
     margin-top: 0;
     border: none;
+}
+
+#dip-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 613px;
+    background-color: #000;
+    z-index: -1;
+    height: 35.5em;
 }
 
 /* Services Section */
@@ -275,9 +269,20 @@ nav {
 
 /* Forms */
 
+@media screen and (max-width: 600px) {
+    #forms {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #text {
+        margin-top: 10px;
+    }
+}
+
 #help-heading {
     font-weight: 500;
-    font-size: 83.4608px;
+    font-size: 6vw;
     line-height: 98px;
 }
 
@@ -304,7 +309,7 @@ input, textarea {
 #telephone, #residence {
     width: 469px;
     height: 84px;
-    background: #53B4F3;
+    background: #2dabff;
     border-radius: 30px;
     margin-top: 10px;
 }
@@ -326,7 +331,7 @@ input, textarea {
     height: 453px;
     left: 859px;
     top: 428px;
-    background: #55B5F4;
+    background: #2dabff;
 }
 
 #submit {
@@ -341,4 +346,5 @@ input, textarea {
     display: flex;
     align-self:flex-end;
     justify-content: center;
+    margin-top: 5px;
 }
